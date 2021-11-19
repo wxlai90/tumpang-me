@@ -1,0 +1,9 @@
+nav {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+}
+
+nav ul li a {
+  text-decoration-line: none;
+  color: var(--secondary-color);
+}

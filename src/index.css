@@ -1,0 +1,30 @@
+:root {
+  --primary-color: rgb(31, 28, 28);
+  --secondary-color: #2ecc71;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+
+.btn {
+  color: #333;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}

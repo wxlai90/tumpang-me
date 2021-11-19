@@ -1,0 +1,51 @@
+.tumpangs-list {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.tumpang-card {
+  border-radius: 0.5rem;
+  padding: 1.2rem 2.4rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  line-height: 1.5;
+}
+
+.tumpang-card .timing {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.tumpang-card .seats {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.tumpang-card .seats > span {
+  margin-right: 1rem;
+}
+
+.tumpang-card .seats > p {
+  font-size: 1.9rem;
+}
+
+.chat-link {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.moments-ago {
+  font-size: 1rem;
+  margin: 2rem 0 0;
+}
+
+.heading-title {
+  font-size: 1.5rem;
+}

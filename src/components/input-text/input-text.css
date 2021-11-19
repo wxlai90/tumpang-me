@@ -1,0 +1,27 @@
+.input-container {
+  padding: 2rem;
+  display: inline-block;
+}
+
+.input-label {
+  position: relative;
+}
+
+.input-label > span {
+  font-size: 1.6rem;
+  position: absolute;
+  top: -2.4rem;
+  left: 0;
+}
+
+.input-text {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 2rem;
+  border-radius: 0;
+}
+
+.input-text:focus {
+  border-bottom: 2px solid #333;
+}
